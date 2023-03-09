@@ -1,0 +1,65 @@
+/*
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+*/
+
+:root 
+{
+  --black: #000000;
+  --bright-pink: #FA255E;
+  --soft-pink: #C39EA0;
+  --white: #F8E5E5;
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%); 
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color: var(--black);
+  font-size: 13px;
+  padding: 5px 8px 5px 8px;
+  background-color:#FA255E;
+}
+
+.button:hover{
+  background-color: #F8E5E5;
+  color:#FA255E;
+  border: 1px solid var(--bright-pink);
+  cursor: pointer;
+  width: 7.1rem;
+}
+
+@media screen and (max-width: 480px) {
+.App {
+  padding: 0.5rem 1rem;
+}
+}
+
+
+
+
+  
+
+  

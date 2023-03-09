@@ -1,0 +1,81 @@
+.contact-form {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 10rem;
+    margin-bottom: 13rem;
+    justify-content: space-between;
+}
+
+.awe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awe> :nth-child(1) {
+    color: var(--soft-pink);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.awe> :nth-child(2) {
+    color: var(--bright-pink);
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 2rem;
+    align-items: center;
+    right: 50rem;
+}
+
+.but {
+    width: 6rem;
+    align-items: center;
+}
+
+.c-right {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex: 1;
+   
+}
+
+input {
+    border: 1px solid var(--bright-pink);
+    border-radius: 5px;
+    width: 180%;
+    height: 30px;
+}
+
+textarea {
+    border: 1px solid var(--bright-pink);
+    border-radius: 5px;
+    width: 180%;
+    height: 130px;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .awe {
+        transform: scale(0.8);   
+        right: 6rem;     
+    }
+    
+    form {
+        transform: scale(0.8); 
+        left: 3rem;
+        bottom: 45rem;
+        width: 80%;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
